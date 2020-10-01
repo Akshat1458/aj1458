@@ -38,6 +38,7 @@ int32_t main(){
 		cin>>h>>n>>m;
 		if(h<=10 && m>0){
 			cout<<"YES\n";
+			continue;
 		}
 		rep(i,0,n){
 			h=(h/2+10);
